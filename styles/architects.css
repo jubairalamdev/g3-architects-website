@@ -207,6 +207,21 @@ main > section {
     width: 100%;
 }
 
+/* footer */
+.footer-section {
+    max-width: 1440px;
+    margin: 0 auto;
+    margin-block: 100px;
+}
+
+.footer-wrapper {
+    width: 100%;
+    text-align: center;
+    padding-block: 24px;
+    border-radius: 8px;
+    font-size: 20px;
+}
+
 /* responsive media query */
 @media screen and (max-width: 576px) {
     .navbar, 
@@ -260,7 +275,7 @@ main > section {
         gap: 50px;
         justify-items: center;
     }
-    
+
     #expreience-badge {
         margin-top: 20px;
         margin-left: 20px;
